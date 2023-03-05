@@ -70,12 +70,13 @@
               "browserTarget": "employee-management-system:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
+          "proxyConfig": "src/proxy.conf.json"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "employee-management-system:build"
+            "browserTarget": "employee-management-system:build",
           }
         },
         "test": {
